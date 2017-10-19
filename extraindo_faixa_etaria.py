@@ -7,7 +7,7 @@ import datetime
 data = datetime.datetime.now()
 
 # Cria uma Conexão com o banco Mysql
-conn = pymysql.connect(host = "teste.wifiaqui.com.br", user = "root", password = "mysql.xlogic", db = "radius-teste")
+conn = pymysql.connect(host = "host", user = "usuario", password = "senha", db = "nome do banco")
 connect = conn.cursor()
 
 
